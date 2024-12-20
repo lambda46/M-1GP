@@ -28,8 +28,8 @@ judge_dict = {2001: ['きよし', '青島', '小朝', '石井', '鴻上', '松�
 
 year_list = list(range(2001, 2011))+list(range(2015, 2024))
 
-m1_score = pd.read_csv("M-1/得点/1st得点.csv")
-m1_result = pd.read_csv("M-1/結果/決勝戦結果.csv")
+m1_score = pd.read_csv("data/1st得点.csv")
+m1_result = pd.read_csv("data/決勝戦結果.csv")
 
 st.set_page_config(layout='wide')
 st.title("M-1グランプリ 歴代1stラウンド得点")
